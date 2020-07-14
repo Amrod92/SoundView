@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(''); // Put your SoundCloud link here. Example: https://soundcloud.com/YOUR_ARTIST_NAME/sets/YOUR_ARTIST_NAME
+  await page.goto('test'); // Put your SoundCloud link here. Example: https://soundcloud.com/YOUR_ARTIST_NAME/sets/YOUR_ARTIST_NAME
 
   try {
     let time = 0; // This is for the pictures
